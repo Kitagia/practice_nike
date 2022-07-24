@@ -1,0 +1,135 @@
+#bgr{
+  background-color: #E5E5E5;
+
+}
+nav{
+  margin-top: 35px; !important;
+}
+.menu{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+
+}
+.icon
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+main{
+  margin-top: 100px; !important;
+
+}
+.title{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+h1.title{
+  font-size: 50px;
+}
+h6.title{
+  font-size: 16px;
+}
+p.text-muted{
+  width: 75%;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+}
+svg.bi{
+  margin-right: 10px; !important;
+}
+.nike{
+  position: absolute;
+  z-index: -1;
+  width: 700px;
+  top: 130px;
+  left: 250px;
+}
+.rev{
+  position: absolute;
+  width: 200px;
+  height: 29px;
+  left: 50px;
+  top: 500px;
+  font-size: 16px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  color: #131212;
+  transform: rotate(-90deg);
+  z-index: 10;
+}
+.oval{
+  position: absolute;
+  width: 850px;
+  height: 198.65px;
+  left: 200px;
+  top: 400px;
+  border: 2px solid #1312121A;
+  border-radius: 50%;
+  z-index: -10;
+}
+svg.bi-circle-fill{
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 597px;
+  top: 574px;
+}
+.triangle{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 602px;
+  top: 582px;
+}
+svg.bi-caret-right-fill, svg.bi-caret-left-fill{
+  margin: 0px;
+  padding: 0px;
+  width: 14px;
+  height: 18px;
+}
+.but, .butcol {
+  width: 30px;
+  height: 30px;
+  margin: 15px 15px 15px 0px;
+  border: 1px solid #1312121A;
+  background-color: inherit;
+  font-size: 10px;
+  font-weight: bold;
+}
+.butcol{
+  border-radius: 25px;
+}
+.social{
+  margin-top: 130px;
+  display: flex;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 350px;
+  right: 120px;
+}
+svg.bi-instagram, svg.bi-twitter, svg.bi-facebook{
+  display:list-item;
+  width: 24px;
+  height: 24px;
+  transform: rotate(-90deg);
+
+}
+.footer{
+  position: relative;
+  top: 250px;
+  background-color: #FFFFFF;
+  padding: 50px;
+}
+.arr{
+  display: inline-block;
+}
+/*style="background-color:black;"
